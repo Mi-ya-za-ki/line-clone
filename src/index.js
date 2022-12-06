@@ -1,0 +1,13 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  // 潜在的なエラーをコンソールに出力する
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+
