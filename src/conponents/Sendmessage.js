@@ -36,7 +36,7 @@ function Sendmessage() {
             onChange={(e) => setMessages(e.target.value)}
             value={message}
           />
-          <SendIcon />
+          <SendIcon onClick={sendMessage}/>
         </div>
       </form>
     </div>
